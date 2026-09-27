@@ -1,0 +1,31 @@
+# ---- OS / editor junk ----
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# ---- Python bytecode / caches ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# ---- virtual environments ----
+.venv/
+venv/
+env/
+
+# ---- local model weights (fetched from Hugging Face / ModelScope) ----
+models/
+checkpoints/
+
+# ---- local corpora and training artefacts (never shipped) ----
+data/
+data_ml/
+cache/
+cache_ml/
+runs/
+outputs/
+*.log

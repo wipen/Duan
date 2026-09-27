@@ -1,0 +1,6 @@
+# Duan — local CPU inference server (see README section 2)
+#
+# `laya[serve]` is the only direct dependency; pip resolves the versions and
+# installs the transitive packages itself: torch, transformers, safetensors,
+# huggingface_hub, numpy, fastapi, uvicorn.
+laya[serve]>=0.3.20
